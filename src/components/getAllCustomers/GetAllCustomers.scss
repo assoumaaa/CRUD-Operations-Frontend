@@ -1,0 +1,66 @@
+.allCustomers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    height: 100%;
+    color: white;
+    font-size: 2rem;
+
+    .titles{
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        padding: 1.3rem;
+        font-size: 2rem;
+        color: white;
+        border-bottom: 2px solid white;
+
+    }
+
+    .data{
+        display: flex;
+        width: 85%;
+
+
+        .id{
+            color: #F05454;;
+        }
+
+        span{
+            padding: 3rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 2px solid #F05454;
+            width: 100%;    
+        }
+
+        .icons{
+            margin-left: 2rem;
+            font-size: 2rem;
+            color: lightsalmon;
+            cursor: pointer;
+            transition: all .3s ease;
+
+
+            &.close{
+                color: red;
+            }
+
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+    }
+    .add{
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        color: lightsalmon;
+        padding: 2rem;
+        color: #30475E;
+        font-weight: 700;
+        cursor: pointer;
+    }
+}

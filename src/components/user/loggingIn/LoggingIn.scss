@@ -1,0 +1,70 @@
+.LoggingIn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    color: white;
+
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+
+        form {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 3rem;
+            background-color: #F05454;
+            border-radius: 2rem;
+            padding: 5rem;
+
+            h1 {
+                color: #2f2f2f;
+                font-size: 3rem;
+            }
+
+            .input-box {
+                input {
+                    transition: all .7s ease;
+                    font-size: 1.3rem;
+                    padding: 1rem;
+                    border-radius: .65rem;
+                    color: black;
+                    outline: none;
+                    border: none;
+
+                    &:hover {
+                        transform: scale(1.05);
+                    }
+                }
+            }
+
+            .button-box {
+                width: 50%;
+                button {
+                    width: 100%;
+                    transition: all .7s ease;
+                    padding: .65rem;
+                    font-size: 1.5rem;
+                    background-color: lightgray;
+                    border-radius: 1.3rem;
+                    border: black solid 2px;
+                    cursor: pointer;
+
+                    &:hover {
+                        border: red solid 2px;
+                    }
+                }
+            }
+
+            .register span a {
+               color: rgb(192, 20, 20);
+               cursor: pointer;
+            }
+        }
+    }
+}
